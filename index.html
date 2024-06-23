@@ -47,6 +47,15 @@
         <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     </head>
     <body>
+        <audio id="PressSound" preload="auto">
+   <source src="./Sounds/press.mp3" type="audio/mp3">
+   <p>Sound is not available</p>
+        </audio>
+        <audio id="SelectSound" preload="auto">
+   <source src="./Sounds/select.mp3" type="audio/mp3">
+   <p>Sound is not available</p>
+        </audio>
+        <script type="text/javascript" src="audio.js"></script>
         <p><img src="MoonJellyfish.png" width="300" height="300"></p>
         <span id="prof">
             <h1>hachchch</h1>
@@ -55,16 +64,16 @@ I mainly make mods for Unciv. <br>but recently, I've been planning to make Genec
 I'm also learning English to conversation with stranger! (still, this text is from Google Translation lol)<br>Finally, thank you for coming to visit my page! but there's nothing any fun stuff here lol</p>
         <div id="link">
                 <h2>Contents</h2>
-                <icon class="icon" id="2F"><a href="./2F/index.html">My Works</a></icon> 
+                <icon class="icon" id="2F"><a href="./2F/index.html" onclick="selectTrigger()">My Works</a></icon> 
         </div>
             <div id="link">
                 <h2>External link</h2>
-                <icon class="icon"><a href="https://github.com/hachchch">Github</a></i></icon><br>
-                <icon class="icon"><a href="https://twitter.com/ketsuan23029909">X(Old Twitter)</a></i></icon><br>
-                <icon class="icon"><a href="https://soundcloud.com/yddwohjlhinu">Sound Cloud</a></icon> 
+                <icon class="icon"><a href="https://github.com/hachchch" onclick="selectTrigger()">Github</a></i></icon><br>
+                <icon class="icon"><a href="https://twitter.com/ketsuan23029909" onclick="selectTrigger()">X(Old Twitter)</a></i></icon><br>
+                <icon class="icon"><a href="https://soundcloud.com/yddwohjlhinu" onclick="selectTrigger()">Sound Cloud</a></icon> 
             </div>
         <div id="tl">
-            <icon class="icon" id="jp"><a href="./index2.html">日本語版</a></icon> 
+            <icon class="icon" id="jp"><a href="./index2.html" onclick="selectTrigger()">日本語版</a></icon> 
         </div>
     </body>
 </html>
