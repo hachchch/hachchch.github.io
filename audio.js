@@ -1,7 +1,7 @@
 function selectTrigger() {
     document.getElementById('SelectSound').pause();
     document.getElementById('SelectSound').currentTime = 0;
-    ring();
+    select();
 }
 function select() {
    document.getElementById("SelectSound").play();
